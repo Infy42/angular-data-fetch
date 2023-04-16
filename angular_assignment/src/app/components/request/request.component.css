@@ -19,9 +19,10 @@ table td{
     border: solid 1px #DDDEEE;
     color: #333;
     padding: 10px;
-    text-shadow: 1px 1px 1px #fff;
 }
-
 #myChart{
     display: inline-flex;
+}
+.red-row {
+    background-color: rgba(150, 15, 15, 0.5);
 }

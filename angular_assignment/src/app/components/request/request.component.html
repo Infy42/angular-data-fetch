@@ -5,7 +5,7 @@
       <th>Total Time in Month</th>
       <th>Actions</th>
     </tr>
-    <tr *ngFor="let employee of employeeHours">
+    <tr *ngFor="let employee of employeeHours" [ngClass]="{'red-row': employee.TotalHours < 100}">
       <td>{{employee.EmployeeName}}</td>
       <td>{{employee.TotalHours}}</td>
       <td>Edit</td>
