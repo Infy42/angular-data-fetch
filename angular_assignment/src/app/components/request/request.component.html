@@ -1,0 +1,18 @@
+<div>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Total Time in Month</th>
+      <th>Actions</th>
+    </tr>
+    <tr *ngFor="let employee of employeeHours">
+      <td>{{employee.EmployeeName}}</td>
+      <td>{{employee.TotalHours}}</td>
+      <td>Edit</td>
+    </tr>
+  </table>
+
+  <div style="display:block; position: relative;">
+    <canvas id="myChart"></canvas>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+table{
+    border: solid 1px #DDDEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: 13px Arial, sans-serif;
+}
+table th{
+    background-color: #DDDFEF;
+    border: solid 1px #DDDEEE;
+    color: #0b0b0b;
+    padding: 10px 80px;
+    text-align: left;
+    font-weight: bold;
+}
+table th:nth-child(3){
+    padding: 10px 20px;
+}
+table td{
+    border: solid 1px #DDDEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#myChart{
+    display: inline-flex;
+}
