@@ -28,7 +28,7 @@ export class RequestComponent {
   constructor(private http: HttpClient) { }
 
   async ngOnInit() {
-    const url = 'https://rc-vault-fap-live-1.azurewebsites.net/api/gettimeentries?code=vO17RnE8vuzXzPJo5eaLLjXjmRW07law99QTD90zat9FfOQJKKUcgQ==';
+    const url = 'site.com{key}';
     const employees = await this.http.get<EmployeeInfo[]>(url).toPromise();
 
     if (employees?.length) {
